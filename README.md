@@ -31,14 +31,17 @@ The dataset is available directly from the `tensorflow.keras.datasets` module.
 
 The model used in this project is based on the VGG16 architecture, which was pre-trained on the ImageNet dataset. The key components of the model include:
 
-Pre-trained VGG16 Base: Used as the feature extractor.
+**Pre-trained VGG16 Base: Used as the feature extractor.**
 
-Custom Layers on Top:
+**Custom Layers on Top:**
 
-Flatten Layer: Converts the 3D feature maps to 1D.
-Dense Layer: Fully connected layer with 256 units and ReLU activation.
-Dropout Layer: Dropout with a rate of 0.5 to prevent overfitting.
-Output Layer: 10 units (one per class) with Softmax activation for classification.
+**Flatten Layer: Converts the 3D feature maps to 1D.**
+
+**Dense Layer: Fully connected layer with 256 units and ReLU activation.**
+
+**Dropout Layer: Dropout with a rate of 0.5 to prevent overfitting.**
+
+**Output Layer: 10 units (one per class) with Softmax activation for classification.**
 
 ---
 
