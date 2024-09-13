@@ -58,7 +58,9 @@ Initially, all layers of the pre-trained VGG16 base model are frozen, meaning th
 The model was evaluated on both the training and validation datasets during training. The final performance on the test set showed the following results:
 
 **Training Accuracy: 0.94**
+
 **Validation Accuracy: 0.85**
+
 **Test Accuracy: 0.83**
 
 The fine-tuning of the pre-trained model after gradual unfreezing helped improve the model's performance on the test set.
